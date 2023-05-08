@@ -31,12 +31,36 @@ let c = 20;
 //-----------------------------------------
 //Exercício 05
 let soma = a + b + c;
-if (soma == 180) {
-    console.log('true');
-} else if (soma !== 180) {
-    console.log('false');
-} else {
-   console.log('erro bipbippawn');   
-}
-
+// if (soma == 180) {
+//     console.log('true');
+// } else if (soma !== 180) {
+//     console.log('false');
+// } else {
+//    console.log('erro bipbippawn');   
+// }
+//--------------------------------
+// Exercício 06
+let chessPiece = 'bispo';
+switch (chessPiece.toLowerCase()) {
+    case 'rainha':
+        console.log('rainha: move-se em qualquer direção');
+        break;
+    case 'rei':
+        console.log('rei: move-se para qualquer casa adjacente');
+        break;
+    case 'peão':
+        console.log('peão: move-se uma casa por vez, para frente');
+        break;
+    case 'bispo':
+        console.log('bispo: move-se diagonalmente');
+        break;
+    case 'torre':
+        console.log('torre: move-se verticalmente e horizontalmente');
+        break;
+    case 'cavalo':
+        console.log('cavalo: move-se em forma de L, horizontalmente ou verticalmente');
+        break;
+        default:
+            console.log('erro, GameOver');             
+    }
 
