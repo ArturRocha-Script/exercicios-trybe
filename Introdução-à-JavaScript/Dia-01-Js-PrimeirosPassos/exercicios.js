@@ -21,10 +21,22 @@ let c = 20;
 // }
 //-----------------------------------------
 // Exercício 04
-if (c > 10) {
-    console.log('positive');
-} else if (c < 10) {
-    console.log('negative');
+// if (c > 10) {
+//     console.log('positive');
+// } else if (c < 10) {
+//     console.log('negative');
+// } else {
+//     console.log('zero');
+// }
+//-----------------------------------------
+//Exercício 05
+let soma = a + b + c;
+if (soma == 180) {
+    console.log('true');
+} else if (soma !== 180) {
+    console.log('false');
 } else {
-    console.log('zero');
+   console.log('erro bipbippawn');   
 }
+
+
