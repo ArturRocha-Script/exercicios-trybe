@@ -41,26 +41,43 @@ let soma = a + b + c;
 //--------------------------------
 // Exercício 06
 let chessPiece = 'bispo';
-switch (chessPiece.toLowerCase()) {
-    case 'rainha':
-        console.log('rainha: move-se em qualquer direção');
-        break;
-    case 'rei':
-        console.log('rei: move-se para qualquer casa adjacente');
-        break;
-    case 'peão':
-        console.log('peão: move-se uma casa por vez, para frente');
-        break;
-    case 'bispo':
-        console.log('bispo: move-se diagonalmente');
-        break;
-    case 'torre':
-        console.log('torre: move-se verticalmente e horizontalmente');
-        break;
-    case 'cavalo':
-        console.log('cavalo: move-se em forma de L, horizontalmente ou verticalmente');
-        break;
-        default:
-            console.log('erro, GameOver');             
-    }
-
+// switch (chessPiece.toLowerCase()) {
+//     case 'rainha':
+//         console.log('rainha: move-se em qualquer direção');
+//         break;
+//     case 'rei':
+//         console.log('rei: move-se para qualquer casa adjacente');
+//         break;
+//     case 'peão':
+//         console.log('peão: move-se uma casa por vez, para frente');
+//         break;
+//     case 'bispo':
+//         console.log('bispo: move-se diagonalmente');
+//         break;
+//     case 'torre':
+//         console.log('torre: move-se verticalmente e horizontalmente');
+//         break;
+//     case 'cavalo':
+//         console.log('cavalo: move-se em forma de L, horizontalmente ou verticalmente');
+//         break;
+//         default:
+//             console.log('erro, GameOver');             
+// }
+//---------------------------------------------------------
+// Exercício 07
+let nota = 88;
+if (nota < 0 || nota > 100) {
+    console.log('Erro, você foi desclassificado');
+} else if (nota >= 90) {
+    console.log('A');
+} else if (nota >=80) {
+    console.log('B');
+} else if (nota >= 70) {
+    console.log('C');
+} else if (nota >= 60) {
+    console.log('D');
+}else if (nota >= 50) {
+    console.log('E');
+}else {
+    console.log('F');
+}
