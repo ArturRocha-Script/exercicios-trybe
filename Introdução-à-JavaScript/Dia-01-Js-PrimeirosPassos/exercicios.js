@@ -12,11 +12,19 @@ let b = 15;
 //--------------------------------------------------------------
 // exercício 03
 let c = 20; 
-if (a > b && a > c) {
-    console.log('A é maior');
-} else if (b > a && b > c) {
-    console.log('B é maior');
+// if (a > b && a > c) {
+//     console.log('A é maior');
+// } else if (b > a && b > c) {
+//     console.log('B é maior');
+// } else {
+//     console.log('C é maior');
+// }
+//-----------------------------------------
+// Exercício 04
+if (c > 10) {
+    console.log('positive');
+} else if (c < 10) {
+    console.log('negative');
 } else {
-    console.log('C é maior');
+    console.log('zero');
 }
-
