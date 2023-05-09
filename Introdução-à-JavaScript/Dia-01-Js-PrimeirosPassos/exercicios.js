@@ -11,7 +11,7 @@ let b = 15;
 // }
 //--------------------------------------------------------------
 // exercício 03
-let c = 20; 
+let c = 20;
 // if (a > b && a > c) {
 //     console.log('A é maior');
 // } else if (b > a && b > c) {
@@ -81,30 +81,44 @@ let nota = 88;
 // }else {
 //     console.log('F');
 // }
-//--------------------------------------------------------
+//---------------------------------------------------------------
 // Exercício 08
 // if (a % 2 === 0 || b % 2 === 0 || c % 2 === 0) {
 //     console.log(true);
 // } else {
 //     console.log(false);
 // }
-//----------------------
+//----------------------------------------------------------------
 // Exercício 09
 // if (a % 2 !== 0 || b % 2 !== 0 || c % 2 !== 0) {
 //     console.log(true);
 // } else {
 //     console.log(false);
 // }
-//--------------------------------
+//-----------------------------------------------------------------
 //Exercício 10
 let custo = 20;
 let venda = 50;
-if (custo >= 0 && venda >= 0) {
-    let custoTotal = custo * 1.2;
-    let lucro = (venda - custoTotal) *1000;
-   console.log(lucro);
-} else {
-    console.log('Valores não podem ser menor que zero');
+// if (custo >= 0 && venda >= 0) {
+let custoTotal = custo * 1.2;
+let lucro = (venda - custoTotal) * 1000;
+//    console.log(lucro);
+// } else {
+//     console.log('Valores não podem ser menor que zero');
+// }
+//----------------------------------------------------------------
+// Exercício 11
+let salarioBruto = 3500;
+let inss;
+let ir;
+if (salarioBruto >= 2594.93 && salarioBruto <= 5189.82) {
+     inss = salarioBruto * 0.11;
+    //console.log(inss);
 }
-
+let salarioBase = salarioBruto - inss;
+//console.log(salarioBase);
+if (salarioBase >= 2826.66 && salarioBase <= 3751, 05) {
+    ir = (salarioBase * 0.15) - 354.80;
+}
+console.log('Meu salario Liquido é: ', salarioBase - ir);
 
