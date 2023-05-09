@@ -90,8 +90,21 @@ let nota = 88;
 // }
 //----------------------
 // Exercício 09
-if (a % 2 !== 0 || b % 2 !== 0 || c % 2 !== 0) {
-    console.log(true);
+// if (a % 2 !== 0 || b % 2 !== 0 || c % 2 !== 0) {
+//     console.log(true);
+// } else {
+//     console.log(false);
+// }
+//--------------------------------
+//Exercício 10
+let custo = 20;
+let venda = 50;
+if (custo >= 0 && venda >= 0) {
+    let custoTotal = custo * 1.2;
+    let lucro = (venda - custoTotal) *1000;
+   console.log(lucro);
 } else {
-    console.log(false);
+    console.log('Valores não podem ser menor que zero');
 }
+
+
