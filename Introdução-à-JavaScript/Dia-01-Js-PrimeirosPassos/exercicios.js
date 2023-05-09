@@ -83,7 +83,14 @@ let nota = 88;
 // }
 //--------------------------------------------------------
 // Exercício 08
-if (a % 2 === 0 || b % 2 === 0 || c % 2 === 0) {
+// if (a % 2 === 0 || b % 2 === 0 || c % 2 === 0) {
+//     console.log(true);
+// } else {
+//     console.log(false);
+// }
+//----------------------
+// Exercício 09
+if (a % 2 !== 0 || b % 2 !== 0 || c % 2 !== 0) {
     console.log(true);
 } else {
     console.log(false);
